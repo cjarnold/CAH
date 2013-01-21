@@ -1,2 +1,5 @@
 gen/
 bin/
+doc/
+.settings/
+proguard-project.txt
