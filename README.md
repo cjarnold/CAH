@@ -1,7 +1,7 @@
 CAH
 ========
 
-![Screenshots](https://raw.github.com/cjarnold/test/master/screenshots.jpg)
+![Screenshots](https://raw.github.com/cjarnold/CAH/master/screenshots.jpg)
 
 CAH is a work in progress pass-and-play <b>android</b> clone of the <b>Cards Against Humanity</b> party game.
 The official version of Cards Against Humanity can be found here: http://cardsagainsthumanity.com/
