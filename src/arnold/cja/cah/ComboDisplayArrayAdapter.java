@@ -16,24 +16,24 @@ import arnold.cja.cah.R;
  */
 public class ComboDisplayArrayAdapter extends ArrayAdapter<Combo> {
 
-	private ArrayList<Combo> mListItems;
-	
-	public ComboDisplayArrayAdapter(Context context, ArrayList<Combo> listItems) {
-		super(context, R.layout.select_winner_item, listItems);
-		mListItems = listItems;	
-	}
-	
-	@Override  
-	public View getView(int position, View view, ViewGroup viewGroup) {	
-		View v = super.getView(position, view, viewGroup);
+   private ArrayList<Combo> mListItems;
 
-		TextView tv = (TextView)v;
+   public ComboDisplayArrayAdapter(Context context, ArrayList<Combo> listItems) {
+      super(context, R.layout.select_winner_item, listItems);
+      mListItems = listItems;	
+   }
 
-		Combo combo = mListItems.get(position);
-		tv.setText(combo.getStyledStatement(), BufferType.SPANNABLE);
+   @Override  
+   public View getView(int position, View view, ViewGroup viewGroup) {	
+      View v = super.getView(position, view, viewGroup);
 
-		return v;
-	}
+      TextView tv = (TextView)v;
+
+      Combo combo = mListItems.get(position);
+      tv.setText(combo.getStyledStatement(), BufferType.SPANNABLE);
+
+      return v;
+   }
 
 }
 

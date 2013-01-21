@@ -14,24 +14,24 @@ import android.widget.TextView.BufferType;
  */
 public class CardSetArrayAdapter extends ArrayAdapter<Card> {
 
-	private ArrayList<Card> mListItems;
-	
-	public CardSetArrayAdapter(Context context, ArrayList<Card> listItems) {
-		super(context, android.R.layout.simple_list_item_1, listItems);
-		mListItems = listItems;
-	}
-	
-	@Override  
-	public View getView(int position, View view, ViewGroup viewGroup) {	
-		View v = super.getView(position, view, viewGroup);
+   private ArrayList<Card> mListItems;
 
-		TextView tv = (TextView)v;
-	
-		Card card = mListItems.get(position);
-		tv.setText(card.getStyledStatement(), BufferType.SPANNABLE);
+   public CardSetArrayAdapter(Context context, ArrayList<Card> listItems) {
+      super(context, android.R.layout.simple_list_item_1, listItems);
+      mListItems = listItems;
+   }
 
-		return v;
-	}
+   @Override  
+   public View getView(int position, View view, ViewGroup viewGroup) {	
+      View v = super.getView(position, view, viewGroup);
+
+      TextView tv = (TextView)v;
+
+      Card card = mListItems.get(position);
+      tv.setText(card.getStyledStatement(), BufferType.SPANNABLE);
+
+      return v;
+   }
 
 }
 

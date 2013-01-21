@@ -13,11 +13,11 @@ mode = ReportingInteractionMode.TOAST,
 forceCloseDialogAfterToast = false, // optional, default false
 resToastText = R.string.crash_toast_text)
 public class MyApplication extends Application {
-	@Override
-	public void onCreate() {
-		super.onCreate();
+   @Override
+   public void onCreate() {
+      super.onCreate();
 
-		// The following line triggers the initialization of ACRA
-		ACRA.init(this);
-	}
+      // The following line triggers the initialization of ACRA
+      ACRA.init(this);
+   }
 }

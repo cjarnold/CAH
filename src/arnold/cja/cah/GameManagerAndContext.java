@@ -8,12 +8,12 @@ import android.content.Context;
  * we must make our own.
  */
 public class GameManagerAndContext {
-	
-	public GameManager mGm;
-	public Context mContext;
-	
-	public GameManagerAndContext(GameManager gm, Context context) {
-		mGm = gm;
-		mContext = context;
-	}
+
+   public GameManager mGm;
+   public Context mContext;
+
+   public GameManagerAndContext(GameManager gm, Context context) {
+      mGm = gm;
+      mContext = context;
+   }
 }

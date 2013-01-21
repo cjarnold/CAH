@@ -9,16 +9,16 @@ import android.util.Log;
  *
  */
 public class SaveStateTask extends AsyncTask<GameManagerAndContext, Void, Long> {
-	
-	private static final String TAG = "SaveStateTask";
-	private Context mContext;
-	
-    protected Long doInBackground(GameManagerAndContext... input) {
-    	mContext = input[0].mContext;
-        return Util.saveState(input[0].mGm, mContext);
-    }
 
-    protected void onPostExecute(Long duration) {
-    	Log.i(TAG, "Saved CAH data (" + duration + " ms)");
-    }
+   private static final String TAG = "SaveStateTask";
+   private Context mContext;
+
+   protected Long doInBackground(GameManagerAndContext... input) {
+      mContext = input[0].mContext;
+      return Util.saveState(input[0].mGm, mContext);
+   }
+
+   protected void onPostExecute(Long duration) {
+      Log.i(TAG, "Saved CAH data (" + duration + " ms)");
+   }
 }
