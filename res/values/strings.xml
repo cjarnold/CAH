@@ -1,0 +1,11 @@
+<resources>
+
+    <string name="app_name">CAH</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+    <string name="clear">Clear</string>
+    <string name="submit">Submit</string>
+    <string name="player_name_hint">Player Name</string>
+    <string name="ai_check_text">Is AI</string>
+    <string name="crash_toast_text">A report has been sent to the developer to help fix the issue !</string>
+</resources>

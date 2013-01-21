@@ -1,0 +1,100 @@
+{
+    "cardSetName" : "Holiday Pack",
+    "cardSetType" : "white",
+    
+    "cards" : [
+        {
+            "text" : "Eating an entire snowman",
+            "definitionProvider" : "ud"
+        },
+		{
+            "text" : "A toxic family environment",
+            "definitionProvider" : "ud"
+        },
+		{
+            "text" : "A [visually arresting] turtleneck",
+            "definitionProvider" : "ud"
+        },
+		{
+            "text" : "Fucking up [Silent Night] in front of 300 parents",
+            "definitionProvider" : "ud"
+        },
+		{
+            "text" : "Immaculate conception",
+            "definitionProvider" : "ud"
+        },
+		{
+            "text" : "[Space Jam] on VHS",
+            "definitionProvider" : "ud"
+        },
+		{
+            "text" : "Gift-wrapping a live [hampster]",
+            "definitionProvider" : "ud"
+        },
+		{
+            "text" : "A [Hungry-Man Frozen] Christmas Dinner for One",
+            "definitionProvider" : "ud"
+        },
+		{
+            "text" : "Several intertwining love stories featuring [Hugh Grant]",
+            "definitionProvider" : "ud"
+        },
+		{
+            "text" : "Mall Santa",
+            "definitionProvider" : "ud"
+        },
+		{
+            "text" : "My hot cousin",
+            "definitionProvider" : "ud"
+        },
+		{
+            "text" : "The Star Wars Holiday Special",
+            "definitionProvider" : "ud"
+        },
+		{
+            "text" : "Krampus, the Austrian Christmas monster",
+            "definitionProvider" : "ud"
+        },
+		{
+            "text" : "Pretending to be happy",
+            "definitionProvider" : "ud"
+        },
+		{
+            "text" : "Socks",
+            "definitionProvider" : "ud"
+        },
+		{
+            "text" : "Taking down Santa with a [surface-to-air missile]",
+            "definitionProvider" : "ud"
+        },
+		{
+            "text" : "The tiny, [calloused hands] of the Chinese children that made this card",
+            "definitionProvider" : "ud"
+        },
+		{
+            "text" : "Elf [cum]",
+            "definitionProvider" : "ud"
+        },
+		{
+            "text" : "A Christmas stocking full of coleslaw",
+            "definitionProvider" : "ud"
+        },
+		{
+            "text" : "Whatever [Kwanzaa] is supposed to be about",
+            "definitionProvider" : "ud"
+        },
+		{
+            "text" : "Another shitty year",
+            "definitionProvider" : "ud"
+        },
+		{
+            "text" : "Clearing a bloody path through Walmart with a [scimitar]",
+            "definitionProvider" : "ud"
+        },
+		{
+            "text" : "Santa's heavy sack",
+            "definitionProvider" : "ud",
+            "definitionText" : "scrotum"
+        }
+    ]
+}

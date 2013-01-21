@@ -1,0 +1,1946 @@
+{
+    "cardSetName" : "Base",
+    "cardSetType" : "white",
+    
+    "cards" : [
+        {
+            "text" : "A balanced breakfast",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Autocannibalism",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Vigorous [jazz hands]",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Flightless birds",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Pictures of boobs",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Doing the right thing",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Hunting accidents",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "A cartoon camel enjoying the smooth, refreshing taste of a cigarette",
+            "definitionProvider" : "ud",
+            "definitionText" : "Camel cigarettes"
+        },
+        {
+            "text" : "The violation of our most basic human rights",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Viagra",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Self-loathing",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Spectacular abs",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "An honest cop with nothing left to lose",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Abstinence",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Man meat",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Mountain Dew Code Red",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Concealing a [boner]",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Roofies",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "[Glenn Beck] convulsively vomiting as a brood of crab spiders hatches in his brain and erupts from his tear ducts",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Tweeting",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "The Big Bang",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Amputees",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Dr. Martin Luther King, Jr.",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Former President [George W. Bush]",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Being [marginalized]",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Smegma",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Laying an egg",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Cuddling",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Aaron Burr",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "The Pope",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "A [bleached asshole]",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Horse meat",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Genital piercings",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Fingering",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Coat hanger abortions",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Elderly Japanese men",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Stranger danger",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Fear itself",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Science",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Praying the gay away",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Same-sex ice dancing",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "The terrorists",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "German dungeon porn",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Binging and purging",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Ethnic cleansing",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Cheating in the [Special Olympics]",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Nickelback",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Heteronormativity",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "William Shatner",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Making a [pouty] face",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Chainsaws for hands",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "The [placenta]",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "The [profoundly] handicapped",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Tom Cruise",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Object permanence",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Goblins",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "An [icepick lobotomy]",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Arnold Schwarzenegger",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Hormone injections",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "A [falcon] with a cap on its head",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Foreskin",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Dying",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Stunt doubles",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Jew-fros",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "A really cool hat",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Flash flooding",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Flavored condoms",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Dying of [dysyntery]",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Sexy pillow fights",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "A sad handjob",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Men",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Historically black colleges",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Sean Penn",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Heartwarming orphans",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Waterboarding",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "The [clitoris]",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Vikings",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Friends who eat all the snacks",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "The [Underground Railroad]",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Pretending to care",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "[Raptor] attacks",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "A [micropenis]",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "A [Gypsy curse]",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Agriculture",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Bling",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "The South",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Sniffing glue",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Consultants",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Geese",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Being a dick to children",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Party poopers",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Sunshine and rainbows",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "YOU MUST CONSTRUCT ADDITIONAL PYLONS",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Mutually-assured destruction",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Heath Ledger",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Sexting",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "An [Oedipus complex]",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Eating all of the cookies before the [AIDS] bake-sale",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "A [sausage festival]",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Michael Jackson",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Skeletor",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Chivalry",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Sharing needles",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Being rich",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Count Chocula",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Spontaneous human combustion",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "College",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Necrophilia",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "The [Chinese gymnastics team]",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Global warming",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Farting and walking away",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Emotions",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Uppercuts",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Cookie Monster devouring the [Eucharist] wafers",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Penis envy",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Letting yourself go",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "White people",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Dick Cheney",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Leaving an awkward voicemail",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Yeast",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Natural selection",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Masturbation",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Twinkies",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "A LAN Party",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Opposable thumbs",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "A grande sugar-free iced soy caramel [macchiato]",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Soiling oneself",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "A [sassy] black woman",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Sperm whales",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Teaching a robot to love",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Scrubbing under the folds",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "A drive-by shooting",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Whipping it out",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Panda sex",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Catapults",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Will Smith",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Five-Dollar Foot-longs",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Land minds",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "A sea of troubles",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "A zesty breakfast burrito",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Christopher Walken",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Friction",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Balls",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "AIDS",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "The KKK",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Figgy pudding",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Seppuku",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Gandhi",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Dave Matthews Band",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Preteens",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "The token minority",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Friends with benefits",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Re-gifting",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Pixelated [bukkake]",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Substitute teachers",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Take-backsies",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "A thermonuclear detonation",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "The Tempur-Pedic Swedish Sleep System",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Waiting 'til marriage",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "A tiny horse",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "A can of whoop-ass",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Dental dams",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Feeding Rosie O'Donnell",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Old-people smell",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Genghis Khan",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Authentic Mexican cuisine",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Oversized lollipops",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Garth Brooks",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Keanu Reeves",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Drinking alone",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "The American Dream",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Taking off your shirt",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Giving 110%",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Flesh-eating bacteria",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Child abuse",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "A cooler full of organs",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "A moment of silence",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "The Rapture",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Keeping Christ in Christmas",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "RoboCop",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "That one [gay Teletubby]",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Sweet, [sweet vengeance]",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Fancy Feast",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Being a motherfucking [sorcerer]",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Jewish fraternities",
+            "definitionProvider" : "ud",
+            "definitionText" : "fraternity"
+        },
+        {
+            "text" : "Edible underpants",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Poor people",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "[All-you-can-eat] shrimp for $5",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "[Britney Spears] at 55",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "That thing that electrocutes your abs",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Fiery poops",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Cards Against Humanity",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "A murder most foul",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Me time",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "The inevitable heat death of the universe",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Nocturnal emissions",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Daddy issues",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "The hardworking Mexican",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Natalie Portman",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Waking up half-naked in a [Denny's] parking lot",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Nipple blades",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Assless chaps",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Full frontal nudity",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Hulk Hogan",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Passive-aggression",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Ronald Reagan",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Vehicular manslaughter",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Menstruation",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Pulling out",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Picking up girls at the [abortion clinc]",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "The [homosexual agenda]",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "The Holy Bible",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "World peace",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Dropping a [chandelier] on your enemies and riding the rope up",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Testicular torsion",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "The milk man",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "A time-travel paradox",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Hot Pockets",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Guys who don't call",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Eating the last known [bison]",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Darth Vader",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Scalping",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Homeless people",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "The [World of Warcraft]",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Gloryholes",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Saxophone solos",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Sean Connery",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "God",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Intelligent design",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Friendly fire",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Keg stands",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Eugenics",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "A good sniff",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Lockjaw",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "A neglected [Tamagotchi]",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "The heart of a child",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Seduction",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Smallpox blankets",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Licking things to claim them as your own",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "A salty surprise",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Poorly-timed [Holocaust] jokes",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "My soul",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "My sex life",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "[Pterodactyl] eggs",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Altar boys",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Forgetting [the Alamo]",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "72 virgins",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Raping and pillaging",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Pedophiles",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Eastern European Turbo-[folk music]",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "A [snapping turtle] biting the tip of your penis",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Pabst Blue Ribbon",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Domino's Oreo Dessert Pizza",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "My collection of high-tech [sex toys]",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "A middle-aged man on roller skates",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "The Blood of Christ",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Half-assed [foreplay]",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Free samples",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "[Douchebag]s on their iPhones",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Hurricane Katrina",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Wearing underwear inside-out to avoid doing laundry",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Republicans",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "The glass ceiling",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "A foul mouth",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "[Jerking off] into a pool of children's tears",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Getting really high",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "The deformed",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Michelle Obama's arms",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Explosions",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Donald Trump",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Sarah Palin",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Attitude",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Crumpets with the Queen",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Frolicking",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Team-building exercises",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Repression",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Road head",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "A bag of magic beans",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "An asymmetric [boob job]",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Public ridicule",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "A mating display",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "A [mime] having a stroke",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "[Stephen Hawking] talking dirty",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "African children",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Mouth herpes",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Overcompensation",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Bill Nye the Science Guy",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Bitches",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Italians",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "A [windmill] full of corpses",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Her Royal Highness, [Queen Elizabeth II]",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Crippling debt",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Adderall",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "A stray pube",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Shorties and blunts",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Passing a [kidney stone]",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Prancing",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Leprosy",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "A brain tumor",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Bees?",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Puppies!",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Cockfights",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Kim Jong-Il",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Hope",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "8 oz. of sweet Mexican black-tar [heroin]",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Incest",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Grave robbing",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Asians who aren't good at math",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Alcoholism",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Justin Bieber",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "The Jews",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Bestiality",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Winking at old people",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Drum circles",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Kids with ass cancer",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Loose lips",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Auschwitz",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Civilian casualties",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Inappropriate [yodeling]",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Tangled [Slinky]s",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Being on fire",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "The Thong Song",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "A [vajazzled vagina]",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Riding off into the sunset",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Exchanging pleasantries",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "My relationship status",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "[Shaquille O'Neal]'s acting career",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Being fabulous",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Lactation",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Not reciprocating [oral sex]",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Sobbing into a [Hungry-Man Frozen Dinner]",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "My genitals",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Date rape",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Ring Pops",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "GoGurt",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Judge Judy",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "[Lumberjack] fantasies",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "The gays",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Scientology",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Estrogen",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Police brutality",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Passable [transvestites]",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "The Virginia Tech Massacre",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Tiger Woods",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Dick fingers",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Racism",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "[Glenn Beck] being harried by a swarm of buzzards",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Surprise sex!",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Classist undertones",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Booby-trapping the house to [foil] burglars",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "New Age music",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "PCP",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "A lifetime of sadness",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Doin' it in the butt",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Swooping",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "The Hamburglar",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Tentacle porn",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "A hot mess",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Too much hair gel",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "A look-see",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Not giving a shit about the Third World",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "American Gladiators",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "The Kool-Aid man",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Mr Snuffleupagus",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Barack Obama",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Golden showers",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Wiping her butt",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Queefing",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Getting drunk on mouthwash",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "An [M. Night Shyamalan] plot twist",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "A robust [mongoloid]",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Nazis",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "White privilege",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "An erection that lasts longer than four hours",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "A disappointing birthday party",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Puberty",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Two [midget]s shitting in a bucket",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Wifely duties",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "The forbidden fruit",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Getting so angry that you pop a [boner]",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Sexual tension",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Third base",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "A gassy [antelope]",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Those times when you get [sand in your vagina]",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "A [Super Soaker] full of cat pee",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "[Muhammad] (Praise Be Unto Him)",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Racially-biased [SAT] questions",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Porn stars",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "A fetus",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Obesity",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "When you fart and a little bit comes out",
+            "definitionProvider" : "ud",
+            "definitionText" : "shart"
+        },
+        {
+            "text" : "Oompa-Loompas",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "BATMAN!!!",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Black people",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Tasteful sideboob",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Hot people",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Grandma",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Copping a feel",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "The Trail of Tears",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Famine",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Finger painting",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "The miracle of childbirth",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Goats eating cans",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "A monkey smoking a cigar",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Faith healing",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Parting the Red Sea",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Dead babies",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "The Amish",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Impotence",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Child beauty pageants",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Centaurs",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "AXE Body Spray",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Kanye West",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Women's suffrage",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Children on leashes",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Harry Potter erotica",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "The Dance of the Sugar Plum Fairy",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "[Lance Armstrong]'s missing testicle",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Dwarf tossing",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Mathletes",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Lunchables",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Women in yogurt commercials",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "John Wilkes Booth",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Powerful thighs",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "[Mr. Clean], right behind you",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Multiple stab wounds",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Cybernetic enhancements",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Serfdom",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Another god-damn vampire movie",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "[Glenn Beck] catching his scrotum on a curtain hook",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "A big hoopla about nothing",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Peeing a little bit",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "The Hustle",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Ghosts",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Bananas in Pajamas",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Active listening",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Dry heaving",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Kamikaze pilots",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "The Force",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Anal beads",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "The Make-A-Wish Foundation",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Flying sex snakes",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "MechaHitler",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Getting naked and watching [Nickelodeon].",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Charisma.",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "[Morgan Freeman]'s voice.",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Breaking out into song and dance.",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Soup that is too hot.",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Unfathomable stupidity.",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Horrifying [laser hair removal] accidents.",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Boogers.",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Expecting a burp and vomiting on the floor.",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "A defective condom.",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Teenage pregnancy.",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Hot cheese.",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "A mopey zoo lion.",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Shapeshifters.",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Erectile dysfunction.",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Firing a rifle into the air while balls deep in a squealing hog.",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Nicolas Cage.",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Home video of Oprah sobbing into a [Lean Cuisine]",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Euphoria? by [Calvin Klein].",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Switching to Geico",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "A gentle caress of the inner thigh.",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Poor life choices.",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Embryonic stem cells.",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Customer service representatives.",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "The Little Engine That Could.",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Lady Gaga.",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "A death ray.",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Vigilante justice.",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Exactly what you'd expect.",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Natural male enhancement.",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "[Passive-aggressive] Post-it notes.",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Inappropriate [yodeling].",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "A homoerotic volleyball montage.",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Actually taking candy from a baby.",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Jibber-jabber.",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Crystal meth.",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "My inner demons.",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "[Pac-Man] uncontrollably guzzling cum.",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "My vagina.",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "The [Donald Trump] Seal of Approval?.",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "The true meaning of Christmas.",
+            "definitionProvider" : "ud"
+        }
+    ]
+}

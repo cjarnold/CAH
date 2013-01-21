@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/whiteforblack"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:ellipsize="none"
+        android:maxLines="100"
+        android:scrollHorizontally="false"
+        android:textColor="@color/White"
+        android:onClick="onWhiteForBlackClick"
+		android:clickable="true"
+        android:textSize="20dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginBottom="22dp"
+        android:textStyle="bold" >
+    </TextView>
+
+    <Button
+        android:id="@+id/ClearCombo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/whiteforblack"
+        android:onClick="onClear"
+        android:layout_marginLeft="22dp"
+        android:layout_marginBottom="20dp"
+        android:text="@string/clear"
+        android:textSize="20dp"      
+        android:textColor="@color/Gold" >
+    </Button>
+
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ClearCombo"
+        android:layout_weight="1" >
+    </ListView>
+
+    <Button
+        android:id="@+id/SubmitCombo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/ClearCombo"
+        android:layout_alignBottom="@+id/ClearCombo"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="22dp"
+        android:layout_marginBottom="20dp"
+        android:textSize="20dp"
+        android:onClick="onSubmit"  
+        android:text="@string/submit"
+        android:textColor="@color/Gold" />
+
+</RelativeLayout>

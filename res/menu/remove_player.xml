@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/remove_player"
+        android:title="Remove Player"/>
+    <item
+        android:id="@+id/remove_all_players"
+        android:title="Remove All Players"/>
+
+</menu>

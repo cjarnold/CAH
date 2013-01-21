@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <resources>
+
+   <string-array name="cardCountOptions">
+     <item>5</item>
+     <item>10</item>
+     <item>15</item>
+     <item>20</item>
+   </string-array>
+   
+   <string-array name="cardCountValues">
+     <item>5</item>
+     <item>10</item>
+     <item>15</item>
+     <item>20</item>
+   </string-array>
+
+ </resources>

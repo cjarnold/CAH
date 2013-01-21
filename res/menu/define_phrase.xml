@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+     <item
+        android:id="@+id/define_google"
+        android:title="Define using Google"/>
+       
+    <item
+        android:id="@+id/define_ud"
+        android:title="Define using Urban Dictionary"/>
+   
+</menu>

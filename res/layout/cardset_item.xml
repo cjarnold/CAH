@@ -1,0 +1,14 @@
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingBottom="25dp"
+    android:paddingTop="25dp"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:gravity="center"
+    android:textColor="@color/White"
+    android:ellipsize="none"
+    android:maxLines="100"
+    android:scrollHorizontally="false"
+    android:textSize="20dp" >
+</TextView>

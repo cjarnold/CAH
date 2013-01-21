@@ -1,0 +1,36 @@
+{
+    "cardSetName" : "Holiday Pack",
+    "cardSetType" : "black",
+    
+    "cards" : [
+        {
+            "text" : "Wake up, America.  Christmas is under attack by [secular liberals] and their ___",
+            "definitionProvider" : "ud"
+        },
+		{
+            "text" : "On the third day of Christmas, my true love gave to me: three French hens, two turtle doves, and ___",
+            "definitionProvider" : "ud",
+			"definitionText" : "The Twelve Days of Christmas"
+        },
+		{
+            "text" : "What keeps me warm during the cold, cold winter? ___",
+            "definitionProvider" : "ud"
+        },
+		{
+            "text" : "Every Christmas, my uncle gets drunk and tells the story about ___",
+            "definitionProvider" : "ud"
+        },
+		{
+            "text" : "[Jesus] is ___.",
+            "definitionProvider" : "ud"
+        },
+		{
+            "text" : "This holiday season, [Tim Allen] must overcome his fear of ___ to save Christmas.",
+            "definitionProvider" : "ud"
+        },
+		{
+            "text" : "After blacking out during [New Year's Eve], I was awoken by ___",
+            "definitionProvider" : "ud"
+        }
+    ]
+}

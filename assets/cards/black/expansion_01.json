@@ -1,0 +1,88 @@
+{
+    "cardSetName" : "First Expansion",
+    "cardSetType" : "black",
+    
+    "cards" : [
+        {
+            "text" : "He who controls ___ controls the world.",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "The [CIA] now interrogates enemy agents by repeatedly subjecting them to ___.",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Dear Sir or Madam, We regret to inform you that the office of ___ has denied your request for ___.",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "In Rome, there are whisperings that the [Vatican] has a secret room devoted to ___.",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Science will never explain the origin of ___.",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "When all else fails, I can always [masturbate] to ___.",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "I learned the hard way that you can't cheer up a [grieving] friend with ___.",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "In its new tourism campaign, [Detroit] proudly proclaims that it has finally eliminated ___.",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "An international [tribunal] has found ___ guilty of ___.",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "The [socialist government]s of Scandanavia have declared that access to ___ is a basic human right.",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "In his new self-produced album, [Kayne West] raps over the sounds of ___.",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "What's the [gift that keeps on giving]? ___",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "This season on [Man vs. Wild], Bear Grylls must survive in the depths of the Amazon with only ___ and his wits.",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "When I pooped, what came out of my butt? ___",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "In the distant future, historians will agree that ___ marked the beginning of America's decline.",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "[In a pinch], ___ can be a suitable substitute for ___.",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "What has been making life difficult at the [nudist colony]? ___",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "[Michael Bay]'s new three-hour action epic pits ___ against ___.",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "And I would have gotten away with it, too, if it hadn't been for ___!",
+            "definitionProvider" : "ud",
+            "definitionText" : "Scooby-Doo"
+        },
+        {
+            "text" : "What brought the [orgy] to a grinding halt? ___",
+            "definitionProvider" : "ud"
+        }
+    ]
+}

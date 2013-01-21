@@ -1,0 +1,9 @@
+<resources>
+
+    <style name="AppTheme" parent="android:Theme.Light" />
+    
+    <style name="noAnimTheme" parent="android:Theme.Holo">
+       <item name="android:windowAnimationStyle">@null</item>
+    </style>
+    
+</resources>

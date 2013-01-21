@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingBottom="18dip"
+    android:paddingLeft="15dip"
+    android:paddingRight="15dip"
+    android:paddingTop="18dip" >
+
+    <TextView
+        android:id="@+id/managePlayersName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:clickable="false"
+        android:focusable="false"
+        android:ellipsize="none"
+        android:maxLines="100"
+        android:scrollHorizontally="false"
+        android:textSize="17dp" />
+
+    <TextView
+        android:id="@+id/managePlayersScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:clickable="false"
+        android:focusable="false"
+        android:ellipsize="none"
+        android:maxLines="100"
+        android:scrollHorizontally="false"
+        android:textSize="15dp"
+        android:textColor="@color/Gold" />
+
+</RelativeLayout>

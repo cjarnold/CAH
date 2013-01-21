@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/settings"
+        android:title="Settings"
+        android:icon="@drawable/settings"
+        android:showAsAction="ifRoom|withText"/>
+  
+    <item
+        android:id="@+id/newGame"
+        android:title="New Game"
+        android:icon="@drawable/new_game"
+        android:showAsAction="ifRoom|withText"/>
+    
+       <item
+        android:id="@+id/reportBuggyGameState"
+        android:title="Report Buggy Game State"
+     
+        />
+       
+    
+</menu>

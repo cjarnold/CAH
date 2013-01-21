@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+ <PreferenceCategory
+   android:summary="Cards"
+   android:title="Cards" >
+ 
+    <ListPreference
+     android:entries="@array/cardCountOptions"
+     android:entryValues="@array/cardCountValues"
+     android:key="cardCount"
+     android:summary="White cards dealt per player"
+     android:title="White cards dealt"
+     android:defaultValue="10" />
+ </PreferenceCategory>
+</PreferenceScreen>

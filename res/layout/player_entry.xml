@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:paddingBottom="8dip"
+        android:paddingLeft="5dip"
+        android:paddingRight="15dip"
+        android:paddingTop="8dip" >
+
+        <TextView
+            android:id="@+id/playerEntryName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:clickable="false"
+            android:focusable="false"
+            android:ellipsize="none"
+            android:maxLines="100"
+            android:scrollHorizontally="false"
+            android:textSize="20dp" />
+
+        <CheckBox
+            android:id="@+id/playerEntryCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:clickable="false"
+            android:focusable="false" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:paddingBottom="8dip"
+        android:paddingLeft="5dip"
+        android:paddingRight="15dip"
+        android:paddingTop="8dip" >
+
+        <TextView
+            android:id="@+id/playerEntryScore"       
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:clickable="false"
+            android:focusable="false"
+            android:textSize="12dp"
+            android:layout_alignParentRight="true"
+            android:ellipsize="none"
+            android:maxLines="100"
+            android:scrollHorizontally="false"
+            android:textColor="@color/Gold" />
+       
+    </RelativeLayout>
+
+</LinearLayout>

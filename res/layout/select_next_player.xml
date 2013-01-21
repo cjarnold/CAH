@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/whiteforblackpreview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/White"
+		android:clickable="true"
+        android:textSize="20dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginBottom="22dp"
+        android:gravity="center_horizontal"
+        android:ellipsize="none"
+        android:maxLines="100"
+        android:scrollHorizontally="false"
+        android:textStyle="bold"
+         >
+    </TextView>
+    
+    <TextView
+        android:id="@+id/cardczar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:ellipsize="none"
+        android:maxLines="100"
+        android:scrollHorizontally="false"
+        android:textColor="@color/Gold"
+        android:textSize="15dp"
+        android:layout_marginBottom="8dp"
+         >
+    </TextView>
+
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+    </ListView>
+
+</LinearLayout>

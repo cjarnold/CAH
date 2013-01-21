@@ -1,0 +1,390 @@
+{
+    "cardSetName" : "Base",
+    "cardSetType" : "black",
+    
+    "cards" : [
+        {
+            "text" : "___? [There's an app for that]",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Why can't I sleep at night? ___",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "What's that smell? ___",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "I got 99 problems but ___ ain't one.",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Who stole the cookies from the cookie jar? ___",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "What's the next [Happy Meal] toy? ___",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "[Anthropologists] have recently discovered a primitive tribe that worships ___.",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "It's a pity that kids these days are all getting involved with ___.",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "During [Picasso]'s often-overlooked Brown Period, he produced hundreds of paintings of ___.",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "[Alternative medicine] is now embracing the curative powers of ___.",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "And the [Academy Award] for ___ goes to ___.",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "What's that sound? ___",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "What ended my last relationship? ___",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "MTV's new reality TV show features eight [washed-up celebrities] living with ___.",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "I drink to forget ___.",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "I'm sorry, I couldn't complete my homework because of ___.",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "What is Batman's guilty pleasure? ___",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "What's a girl's best friend? ___",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "[TSA] guidelines now prohibit ___ on airplanes.",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "___. That's how I want to die.",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "For my next trick, I will pull ___ out of ___.",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "In the new Disney Channel Original Movie, [Hannah Montana] struggles with ___ for the first time.",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "___ is a slippery slope that leads to ___.",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "What does [Dick Cheney] prefer? ___",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "I wish I hadn't lost the instruction manual for ___.",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Instead of coal, Santa now gives the bad children ___.",
+            "definitionProvider" : "ud",
+            "definitionText" : "Getting coal for Christmas"
+        },
+        {
+            "text" : "What's the most [emo]? ___",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "In 1,000 years, when paper money is but a distant memory, ___ will be our currency.",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "What's the next superhero/sidekick [duo]? ___ & ___",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "In [M. Night Shyamalan]'s new movie, Bruce Willis discovers that ___ had really been ___ all along",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "A romantic, candlelit dinner would be incomplete without ___.",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "___. [Betcha can't have just one]!",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "White people like ___.",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "___. [High five], bro.",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Next from J.K. Rowling: [Harry Potter] and Chamber of ___.",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "[BILLY MAYS] HERE FOR ___.",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "In a world [ravaged] by ___, our only solace is ___.",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "War! What is it good for? ___",
+            "definitionProvider" : "ud",
+            "definitionText" : "War what is it good for?"
+        },
+        {
+            "text" : "During sex, I like to think about ___.",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "What are my parents hiding from me? ___",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "What will always get you [laid]? ___",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "When I'm in prison, I'll have ___ [smuggled] in.",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "What did I bring back from Mexico? ___",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "What don't you want to find in your Chinese food? ___",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "What will I bring back in time to convince people that I am a powerful wizard? ___",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "How am I maintaining my relationship status? ___",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Coming to [Broadway] this season, ___: The Musical.",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "While the United States raced the Soviet Union to the moon, the Mexican government funnelled millions of [pesos] into research on ___.",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "After Hurricane Katrina, [Sean Penn] brought ___ to the people of New Orleans.",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Due to a PR [fiasco], Walmart no longer offers ___.",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "In his new summer commedy, [Rob Schneider] is ___ trapped in the body of ___.",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Rumor has it that [Vladimir Putin]'s favorite dish is ___ stuffed with ___.",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "But before I kill you Mr. Bond, I must show you ___.",
+            "definitionProvider" : "ud",
+            "definitionText" : "James Bond villians"
+        },
+        {
+            "text" : "What gives me uncontrollable gas? ___",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "What do old people smell like? ___",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "The class field trip was completely ruined by ___.",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "When Pharaoh remained unmoved, Moses called down a Plague of ___.",
+            "definitionProvider" : "ud",
+            "definitionText" : "Moses and Pharaoh"
+        },
+        {
+            "text" : "What's my secret power? ___",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "What's there a ton of in heaven? ___",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "What would grandma find disturbing, yet oddly charming? ___",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "I never truly understood ___ until I encountered ___.",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "The US has begun [airdropping] ___ to the children of Afghanistan.",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "What helps [Obama] unwind? ___",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "What did [Vin Diesel] eat for dinner? ___",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "___: good to the last drop.",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Why am I sticky? ___",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "What gets better with age? ___",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "___: kid-tested, mother-approved.",
+            "definitionProvider" : "ud",
+            "definitionText" : "Kix cereal"
+        },
+        {
+            "text" : "What's the crustiest? ___",
+            "definitionProvider" : "ud",
+            "definitionText" : "crusty"
+        },
+        {
+            "text" : "What's [Teach for America] using to inspire inner city students to succeed? ___",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Studies show that lab rats navigate mazes 50% faster after being exposed to ___.",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Life was difficult for [cavemen] before ___.",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Make a [haiku]. ___ ; ___ ; ___",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "I do not know with what weapons World War III will be fought, but World War IV will be fought with ___.",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Why do I hurt all over? ___",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "What am I giving up for [Lent]? ___",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "In [Michael Jackson]'s final moments, he thought about ___.",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "In an attempt to reach a wider audience, the [Smithsonian Museum of Natural History] has opened an interactive exhibit on ___.",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "When I am President of the United States, I will create the department of ___.",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "[Lifetime] presents ___, the story of ___.",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "When I am a billionare, I shall erect a 50-foot statue to [commemorate] ___.",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "When I was [tripping on acid], ___ turned into ___.",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "What's my [anti-drug]? ___",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "___ + ___ = ___.",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "What never fails to liven up the party? ___",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "What's the new [fad diet]? ___",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "[Major League Baseball] has banned ___ for giving players an unfair advantage.",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Maybe she's born with it. Maybe it's ___.",
+            "definitionProvider" : "ud",
+            "definitionText" : "Maybe she's born with it.  Maybe it's maybelline"
+        },
+        {
+            "text" : "[Dear Abby], I'm having some trouble with ___ and would like your advice.",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "What's the next superhero/sidekick [duo]?",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "In L.A. County Jail, word is you can trade 200 cigarettes for ___.",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Next on [ESPN]2, the World Series of ___.",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Step 1: ___. Step 2: ___. Step 3: Profit.",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Life for American Indians was forever changed when the White Man introduced them to ___.",
+            "definitionProvider" : "ud"
+        }
+    ]
+}

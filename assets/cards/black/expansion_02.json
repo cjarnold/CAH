@@ -1,0 +1,108 @@
+{
+    "cardSetName" : "Second Expansion",
+    "cardSetType" : "black",
+    
+    "cards" : [
+        {
+            "text" : "During his [midlife crisis], my dad got really into ___.",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "___ would be [woefully incomplete] without ___.",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "My new favorite [porn star] is Joey ___ McGee.",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Before I run for president, I must destroy all evidence of my involvement with ___.",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "This is your captain speaking. Fasten your seatbelts and prepare for ___.",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "In his newest and most difficult stunt, [David Blaine] must escape from ___.",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "The Five Stages of Grief: denial, anger, bargaining, ___, acceptance.",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "My mom freaked out when she looked at my browser history and found ___.com/___.",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "I went from ___ to ___, all thanks to ___.",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Members of New York's social [elite] are paying thousands of dollars just to experience ___.",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "This month's [Cosmo]: Spice up your sex life by bringing ___ into the bedroom",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "[Little Miss Muffet] Sat on a tuffet, Eating her curds and ___.",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "If God didn't want us to enjoy ___, he wouldn't have given us ___.",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "My country, 'tis of thee, sweet land of ___.",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "After months of debate, the [Occupy Wall Street] General Assembly could only agree on More ___!",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "I spent my whole life working toward ___, only to have it ruined by ___.",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Next time on [Dr. Phil]: How to talk to your child about ___.",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Only two things in life are certain: death and ___.",
+            "definitionProvider" : "ud",
+            "definitionText" : "Death and Taxes"
+        },
+        {
+            "text" : "Everyone down on the ground! We don't want to hurt anyone. We're just here for ___.",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "The healing process began when I joined a [support group] for victims of ___.",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "The votes are in, and the new high school [mascot] is ___.",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "[Charades] was ruined for me forever when my mom had to act out ___.",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Before ___, all we had was ___.",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "Tonight on [20/20]: What you don't know about ___ could kill you.",
+            "definitionProvider" : "ud"
+        },
+        {
+            "text" : "You haven't truly lived until you've experienced ___ and ___ at the same time. ",
+            "definitionProvider" : "ud"
+        }
+    ]
+}
