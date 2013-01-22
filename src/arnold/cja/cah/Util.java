@@ -161,9 +161,23 @@ public class Util {
       return builder;
    }
 
-   // Todo: if we can't load from file then we need to notify the caller
-   // that it needs to abandon the current activity and start from the root.
-   // Assuming the activity calling this isn't already the root.
+   /**
+    * Constructs and initializes the GameManager object if it is not already available.
+    * 
+    * When loading the app, there are a few situations to handle concerning GameManager:<p>
+    * <ul>
+    *   <li> The app will load into the last Activity that was used, but GameManager might be null.
+    *     Therefore, every Activity's onCreate needs to call this method to ensure the GameManager
+    *     is constructed and loaded.</li>  
+    *   <li> Even if an Activity is destroyed and recreated, GameManager can still exist (it is a static).
+    *     Therefore there are some cases where we don't need to do anything here.</li>
+    *   <li> If for some reason the GameManager cannot be loaded from disk, the activity stack is cleared
+    *     so that we go back to LaunchActivity with a fresh GameManager.</li>
+    * </ul>
+    * 
+    * @param activity The Activity in which onCreate is being called
+    * @return         true if the GameManager is constructed ok, false if the GameManager failed to construct
+    */
    public static boolean constructGameManagerIfNecessary(Activity activity) {
       if (LaunchActivity.gm == null) {
          Log.i(TAG, "gm is null in constructGameManagerIfNecessary so we need to load from file");
@@ -212,6 +226,24 @@ public class Util {
       activity.startActivityForResult(intent, requestCode);
    }
 
+   /**
+    * Save state if the user may be leaving the app.
+    * The android standard is to save state in an Activity's onPause()
+    * method.  Because CAH is composed of movement between many activities,
+    * onPause will trigger hundreds of times per game.  Since saving state is
+    * an expensive operation, we will NOT save if we know that we are just
+    * moving between Activities within CAH.  On the other hand, if we cannot
+    * detect that we are moving between Activities internal to CAH, then the
+    * save to file will be triggered.  Unfortunately android does not provide
+    * a way to detect if we are leaving an Activity to go and do something else on 
+    * the device.  Therefore each CAH Activity must notify the GameManager if
+    * it is about to either finish or trigger the start of a new Activity by 
+    * calling {@link GameManager#setLeavingActivity()}
+    * 
+    * @param context A reference to the calling Activity
+    * @see   Util#asyncSaveState(Context)
+    * @see   GameManager#setLeavingActivity()
+    */
    public static void saveStateIfLeavingApp(Context context) {
       if (!LaunchActivity.gm.getLeavingActivity()) {
          Log.i(TAG, "Application being sent to background");
@@ -224,18 +256,28 @@ public class Util {
       }
    }
 
-   // A copy of the game state is made and handed off to a background thread
-   // which serializes it and saves it to file.  As soon as the background thread
-   // is launched, the UI thread can continue executing and safely make changes
-   // to game state since the background thread is working with a copy.
-   // TODO: Prevent a second saving thread from starting if there is already one in progress.
+   /**
+    * Use a background thread to save the game state to file.
+    * Since serialization is a relatively slow procedure (upwards of 1 second),
+    * the serialization needs to happen apart from the UI thread.  To prevent race
+    * conditions, a copy of the GameManager is made and handed off to the AsyncTask.
+    * <p>TODO: Prevent multiple SaveStateTasks from running at the same time.
+    * 
+    * @param context  A reference to the calling Activity
+    */
    public static void asyncSaveState(Context context) {
       GameManager gmCopy = new GameManager(LaunchActivity.gm);
       GameManagerAndContext gmAndContext = new GameManagerAndContext(gmCopy, context);
       new SaveStateTask().execute(gmAndContext);
    }
 
-   // This is run in a background thread therefore it CANNOT access UI elements
+   /**
+    * This is run in a background thread therefore it CANNOT access UI elements
+    * 
+    * @param gm      The GameManager which will be serialized and saved
+    * @param context A reference to the calling Activity
+    * @return        How long it took to save, in milliseconds
+    */
    public static long saveState(GameManager gm, Context context) {
       try {
          long startTime = System.currentTimeMillis();
