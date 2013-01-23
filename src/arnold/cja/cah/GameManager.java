@@ -16,7 +16,7 @@ import arnold.cja.cah.Card.CardType;
  */
 public class GameManager implements java.io.Serializable {
 
-   private static final long serialVersionUID = 10;
+   private static final long serialVersionUID = 11;
    private static final String TAG = "GameManager";
 
    // The game state is defined by the following:
@@ -264,6 +264,8 @@ public class GameManager implements java.io.Serializable {
     */
    public void createPlayers() {
 
+      Log.i(TAG, "createPlayers");
+      
       for(int i = 0; i < 5; ++i) {
          Player p;
          if (i < 3) {
@@ -343,14 +345,13 @@ public class GameManager implements java.io.Serializable {
          return null;
       }
       else {
-         Log.i(TAG, "card czar index is " + mCardCzarIndex);
          return mPlayers.get(mCardCzarIndex);
       }
    }
-
+   
    public void fixCardCzar() {
       Log.i(TAG, "Fixing card czar");
-
+    
       if (getHumanPlayerCount() == 0) {
          mCardCzarIndex = -1;
          return;
@@ -359,13 +360,10 @@ public class GameManager implements java.io.Serializable {
          // there's at least one human.  If mCardCzarIndex is -1 then 
          // set it to 0.
 
-         Log.i(TAG, "cci before the mod = " + mCardCzarIndex);
-
          if (mCardCzarIndex < 0) { mCardCzarIndex = 0; }
 
          mCardCzarIndex = mCardCzarIndex % mPlayers.size();
-         Log.i(TAG, "cci after the mod = " + mCardCzarIndex);
-
+      
          Player p = getCardCzar();
 
          if (p != null && p.isAI()) {

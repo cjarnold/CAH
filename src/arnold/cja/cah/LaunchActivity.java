@@ -31,7 +31,7 @@ import arnold.cja.cah.Util.StyleType;
 public class LaunchActivity extends ListActivity {
 
    private static final String TAG                       = "LaunchActivity";
-   private static final String MENU_START_ROUND          = "Start next round";
+   private static final int    MENU_POSITION_START_ROUND = 0;
    private static final String MENU_VIEW_BLACK_CARD_SETS = "Browse Black Card Sets";
    private static final String MENU_VIEW_WHITE_CARD_SETS = "Browse White Card Sets";
    private static final String MENU_MANAGE_PLAYERS       = "Manage Players";
@@ -63,7 +63,7 @@ public class LaunchActivity extends ListActivity {
       Util.constructGameManagerIfNecessary(this);
 
       mMainMenu = new ArrayList<String>();
-      mMainMenu.add(MENU_START_ROUND);
+      mMainMenu.add("Start Round");
       mMainMenu.add(MENU_MANAGE_PLAYERS);
       mMainMenu.add(MENU_VIEW_BLACK_CARD_SETS); 
       mMainMenu.add(MENU_VIEW_WHITE_CARD_SETS);
@@ -78,8 +78,8 @@ public class LaunchActivity extends ListActivity {
    }
 
    private void setRound() {
-      mMainMenu.set(0, (gm.hasRoundStarted() ? "Continue" : "Start") + " Round " + 
-            Integer.toString(gm.getRoundNumber()));
+      mMainMenu.set(MENU_POSITION_START_ROUND, 
+    		  (gm.hasRoundStarted() ? "Continue" : "Start") + " Round " + gm.getRoundNumber());
       mAdapter.notifyDataSetChanged();
    }
 
@@ -87,7 +87,7 @@ public class LaunchActivity extends ListActivity {
    protected void onListItemClick(ListView l, View v, int position, long id) {
       String item = (String) getListAdapter().getItem(position);
 
-      if (item == MENU_START_ROUND) {
+      if (position == MENU_POSITION_START_ROUND) {
          handleStartRound();
       }
       else if (item == MENU_VIEW_BLACK_CARD_SETS) {
@@ -317,7 +317,13 @@ public class LaunchActivity extends ListActivity {
       case R.id.newGame:
          showDialog(DIALOG_NEW_GAME, null);
          break;
-
+      case R.id.resetEntireGame:
+         Util.toast(this, "Wiping and reloading entire game...");
+         gm = new GameManager();
+         gm.setupGame(getAssets());
+         setRound();
+         Util.toast(this, "Game was wiped and reset");
+         break;
       }
       return true;
    }

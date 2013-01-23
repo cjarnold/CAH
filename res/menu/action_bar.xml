@@ -13,11 +13,13 @@
         android:icon="@drawable/new_game"
         android:showAsAction="ifRoom|withText"/>
     
-       <item
+    <item
         android:id="@+id/reportBuggyGameState"
-        android:title="Report Buggy Game State"
-     
-        />
+        android:title="Report Buggy Game State"/>
+    
+    <item
+        android:id="@+id/resetEntireGame"
+        android:title="Full Game Reset"/>
        
     
 </menu>

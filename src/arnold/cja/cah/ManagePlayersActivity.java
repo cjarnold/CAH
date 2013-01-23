@@ -33,7 +33,8 @@ public class ManagePlayersActivity extends ListActivity{
    private static final int    DIALOG_REMOVE_ALL_PLAYERS = 2;
    
    private ArrayAdapter<Player> mAdapter;
-
+   private ArrayList<Player>    mPlayers;
+   
    @Override
    public void onCreate(Bundle savedInstanceState) {
       super.onCreate(savedInstanceState);
@@ -42,9 +43,9 @@ public class ManagePlayersActivity extends ListActivity{
 
       if (!Util.constructGameManagerIfNecessary(this)) { return; }
 
-      ArrayList<Player> players = LaunchActivity.gm.getPlayers();
+      mPlayers = new ArrayList<Player>(LaunchActivity.gm.getPlayers());
 
-      Collections.sort(players, new Comparator<Player>() {
+      Collections.sort(mPlayers, new Comparator<Player>() {
          public int compare(Player one, Player other) {
             if (one.getPointTotal() == other.getPointTotal()) {
                return other.getName().compareTo(one.getName());
@@ -55,7 +56,7 @@ public class ManagePlayersActivity extends ListActivity{
          }
       }); 
 
-      mAdapter = new PlayerStatArrayAdapter(this, players);
+      mAdapter = new PlayerStatArrayAdapter(this, mPlayers);
       setListAdapter(mAdapter);
       this.registerForContextMenu(this.getListView());
 
@@ -95,6 +96,7 @@ public class ManagePlayersActivity extends ListActivity{
          .setPositiveButton("Yes", new DialogInterface.OnClickListener() {
             public void onClick(DialogInterface dialog, int id) {
                LaunchActivity.gm.removeAllPlayers();
+               mPlayers.clear();
                mAdapter.notifyDataSetChanged();
             }
          })
@@ -150,6 +152,7 @@ public class ManagePlayersActivity extends ListActivity{
          p.setIsAI(data.getBooleanExtra(AddPlayerActivity.EXTRA_IS_AI, false));
          LaunchActivity.gm.dealEnough(p);
          LaunchActivity.gm.getPlayers().add(p);
+         mPlayers.add(p);
          LaunchActivity.gm.fixCardCzar();
 
          mAdapter.notifyDataSetChanged();
@@ -176,6 +179,7 @@ public class ManagePlayersActivity extends ListActivity{
          Player player = (Player) getListAdapter().getItem((int) info.id);
          Util.toast(this, player.getName() + " has been removed");
          LaunchActivity.gm.removePlayer(player);
+         mPlayers.remove(player);
          mAdapter.notifyDataSetChanged();
          return true;
       case R.id.remove_all_players:
