@@ -15,8 +15,8 @@ import arnold.cja.cah.R;
  */
 public class PrefsActivity extends PreferenceActivity implements SharedPreferences.OnSharedPreferenceChangeListener {
 
-   private static final String TAG = "PrefsActivity";
-   public static final String PREF_CARD_COUNT = "cardCount";
+   private static final String TAG             = "PrefsActivity";
+   public  static final String PREF_CARD_COUNT = "cardCount";
 
    @Override
    protected void onCreate(final Bundle savedInstanceState) {

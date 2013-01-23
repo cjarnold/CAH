@@ -10,7 +10,7 @@ import android.content.Context;
 public class GameManagerAndContext {
 
    public GameManager mGm;
-   public Context mContext;
+   public Context     mContext;
 
    public GameManagerAndContext(GameManager gm, Context context) {
       mGm = gm;

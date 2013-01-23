@@ -331,10 +331,17 @@ public class Util {
       }
    }
 
+   /** 
+    * See if any basic assumptions have been broken such as the number of cards in play
+    * equal to the number we started with and whether an AI player has somehow become
+    * the Card Czar
+    * 
+    * @param activity    A reference to the calling Activity
+    * @param comingFrom  A note for logging where assertGameState is being called from
+    */
    public static void assertGameState(Activity activity, String comingFrom) {
-      // count all black and white cards in all locations and verify that the counts
-      // are the same as when we started
-
+      boolean ok = true;
+	  
       Deck d = LaunchActivity.gm.getDeck();
 
       int cardCount = d.countCards();
@@ -343,13 +350,25 @@ public class Util {
       }
 
       if (cardCount != d.getCardCount()) {
-         Log.i(TAG, "Card State Failure: Expected: " + d.getCardCount() + ", Actual: " + cardCount + ", Note: " + comingFrom);
+         Log.i(TAG, "ASSERT: Card State Failure: Expected: " + d.getCardCount() + ", Actual: " + cardCount + ", Note: " + comingFrom);
+         ok = false;
       }
-      else {
-         Log.i(TAG, "Card State OK: Expected: " + d.getCardCount() + ", Actual: " + cardCount + ", Note: " + comingFrom);
+     
+      // Check if any AI players have become the CardCzar:
+      for(Player p : LaunchActivity.gm.getPlayers()) {
+    	  if (p.isAI() && p.isCardCzar()) {
+    		  Log.i(TAG, "ASSERT: AI player " + p.getName() + " is the CardCzar!, Note: " + comingFrom);
+    		  Util.toast(activity, "AI player " + p.getName() + " is the CardCzar!, Note: " + comingFrom);
+    		  ok = false;
+    	  }
+    	  
+      }
+      
+      if (ok) {
+         Log.i(TAG, "ASSERT: Game state is ok in [" + comingFrom + "]");
       }
    }
-
+  
 }
 
 

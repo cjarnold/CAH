@@ -27,11 +27,11 @@ import arnold.cja.cah.R;
  */
 public class ManagePlayersActivity extends ListActivity{
 
-   private static final String TAG = "ManagePlayersActivity";
-   private static final int DIALOG_PLAYER             = 1;
-   private static final int DIALOG_REMOVE_ALL_PLAYERS = 2;
+   private static final String TAG           = "ManagePlayersActivity";
    private static final String B_PLAYER_TEXT = "PLAYER_TEXT";
-
+   private static final int    DIALOG_PLAYER             = 1;
+   private static final int    DIALOG_REMOVE_ALL_PLAYERS = 2;
+   
    private ArrayAdapter<Player> mAdapter;
 
    @Override
@@ -55,12 +55,11 @@ public class ManagePlayersActivity extends ListActivity{
          }
       }); 
 
-
       mAdapter = new PlayerStatArrayAdapter(this, players);
       setListAdapter(mAdapter);
       this.registerForContextMenu(this.getListView());
 
-      Log.i(TAG, "ManagePlayersActivity: finished onCreate");
+      Util.assertGameState(this, "ManagePlayersActivity::onCreate");
    }
 
    @Override
@@ -200,13 +199,13 @@ public class ManagePlayersActivity extends ListActivity{
       Log.i(TAG, "ManagePlayersActivity::onStart");
       // The activity is about to become visible.
    }
+   
    @Override
    protected void onResume() {
       super.onResume();
-      Log.i(TAG, "ManagePlayersActivity::onResume");
-      // The activity has become visible (it is now "resumed").
+      Util.assertGameState(this, "ManagePlayersActivity::onResume");
    }
-
+   
    @Override
    protected void onStop() {
       super.onStop();

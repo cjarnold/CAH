@@ -79,8 +79,8 @@ public class CardSet implements Iterable<Card>, java.io.Serializable {
       }); 
    }
 
-   // Unfortunately we need this so that the mCards can be given to 
-   // an ArrayAdapter
+   // Unfortunately we need this so that the cards can be displayed 
+   // in a CardSetArrayAdapter
    public ArrayList<Card> getAsArrayList() {
       return mCards;
    }

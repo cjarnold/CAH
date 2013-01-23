@@ -41,6 +41,8 @@ public class SelectRoundWinnerActivity extends ListActivity {
       mAdapter = new ComboDisplayArrayAdapter(this, mCombos);
 
       setListAdapter(mAdapter);
+      
+      Util.assertGameState(this, "SelectRoundWinnerActivity::onCreate");
    }
 
    @Override
@@ -94,6 +96,12 @@ public class SelectRoundWinnerActivity extends ListActivity {
       super.onPause();
       Log.i(TAG, "SelectRoundWinnerActivity::onPause");
       Util.saveStateIfLeavingApp(this);
+   }
+   
+   @Override
+   protected void onResume() {
+      super.onResume();
+      Util.assertGameState(this, "SelectRoundWinnerActivity::onResume");
    }
 
    @Override

@@ -17,10 +17,9 @@ import arnold.cja.cah.R;
  */
 public class AddPlayerActivity extends Activity {
 
-   private static final String TAG = "AddPlayerActivity";
-   public static final String EXTRA_IS_AI = "IsAI";
-   public static final String EXTRA_PLAYER_NAME = "PlayerName";
-
+   private static final String TAG               = "AddPlayerActivity";
+   public  static final String EXTRA_IS_AI       = "IsAI";
+   public  static final String EXTRA_PLAYER_NAME = "PlayerName";
 
    @Override
    public void onCreate(Bundle savedInstanceState) {
@@ -31,7 +30,9 @@ public class AddPlayerActivity extends Activity {
 
       LayoutParams params = getWindow().getAttributes();
       params.width = LayoutParams.FILL_PARENT;
-      getWindow().setAttributes((android.view.WindowManager.LayoutParams) params);        
+      getWindow().setAttributes((android.view.WindowManager.LayoutParams) params); 
+      
+      Util.assertGameState(this, "AddPlayerActivity::onCreate");
    }
 
    public void OKAddPlayer(View v) {
@@ -61,6 +62,12 @@ public class AddPlayerActivity extends Activity {
       super.onPause();
       Log.i(TAG, "AddPlayerActivity::onPause");
       Util.saveStateIfLeavingApp(this);
+   }
+   
+   @Override
+   protected void onResume() {
+      super.onResume();
+      Util.assertGameState(this, "AddPlayerActivity::onResume");
    }
 
    @Override

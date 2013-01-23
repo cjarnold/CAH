@@ -24,7 +24,7 @@ import arnold.cja.cah.R;
 public class PlayerSelectArrayAdapter extends ArrayAdapter<Player> {
 
    private ArrayList<Player> mListItems;
-   private Context mContext; 
+   private Context           mContext; 
 
    public PlayerSelectArrayAdapter(Context context, ArrayList<Player> listItems) {
       super(context, R.layout.player_entry, listItems);

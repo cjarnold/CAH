@@ -16,7 +16,7 @@ import arnold.cja.cah.Card.CardType;
  */
 public class GameManager implements java.io.Serializable {
 
-   private static final long serialVersionUID = 7;
+   private static final long serialVersionUID = 10;
    private static final String TAG = "GameManager";
 
    // The game state is defined by the following:
@@ -124,8 +124,10 @@ public class GameManager implements java.io.Serializable {
       }
    }
 
+   /**
+    * Reset everything except for the list of players who are participating
+    */
    public void resetGame() {
-      // keep the mPlayers but clear their points, their combos, and their hand
       for(Player p : mPlayers) {
          p.reset();
       }
@@ -186,8 +188,6 @@ public class GameManager implements java.io.Serializable {
       mRoundHasStarted = false;
       clearPickedPlayerFlags();
       resetCombos();
-
-
    }
 
    public ArrayList<Combo> getCombos() { 
@@ -214,8 +214,6 @@ public class GameManager implements java.io.Serializable {
          e.printStackTrace();
       }
 
-      Log.i(TAG, "About to load the files. " + whiteFiles.length + " white files were found");
-
       for (String filename : whiteFiles) {
          filename = "cards/white/" + filename;
          Log.i(TAG, "Found White [" + filename + "]");
@@ -235,9 +233,9 @@ public class GameManager implements java.io.Serializable {
    }
 
    public boolean deal(Player player, int numWhiteCards) {
-
       if (mDeck.whiteCardsAvailable() < numWhiteCards) {
-         Log.i(TAG, "Could not deal cards to " + player.getName() + " because whiteCardsAvailable is not enough");
+         Log.i(TAG, "Could not deal cards to " + player.getName() + 
+               " because whiteCardsAvailable is not enough");
          return false;
       }
       else {
@@ -259,8 +257,11 @@ public class GameManager implements java.io.Serializable {
       return deal(player, mCardsInFullHand - player.getWhiteHand().size());
    }
 
-   // Create some example players the first time the user loads the game
-   // That way they can try the game out without having to go to manage players
+   
+   /**
+    * Create some example players the first time the user loads the game
+    * That way they can try the game out without having to go to manage players
+    */
    public void createPlayers() {
 
       for(int i = 0; i < 5; ++i) {

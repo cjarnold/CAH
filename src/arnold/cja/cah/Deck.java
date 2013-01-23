@@ -66,10 +66,9 @@ public class Deck implements java.io.Serializable {
       BufferedReader br = null;
       try {
          br = new BufferedReader(new InputStreamReader(assetManager.open(filename)));
-      } catch (IOException e1) {
-         // TODO Auto-generated catch block
+      } catch (IOException e) {
          Log.i(TAG, "Couldn't construct BufferedReader with filename [" + filename + "]");
-         e1.printStackTrace();
+         e.printStackTrace();
       }
 
       String line;
@@ -103,13 +102,11 @@ public class Deck implements java.io.Serializable {
             }
          }
       }
-      catch(Exception e){
-
+      catch(Exception e) {
          e.printStackTrace();
          Log.i(TAG, "Error loading json");
          return false;
       }
-
 
       cardSet.sort();
 
@@ -142,7 +139,6 @@ public class Deck implements java.io.Serializable {
    public Card nextWhiteCard() {
       if (mWhiteDrawPile.empty()) {
          reset(mWhiteDrawPile, mWhiteDiscard);
-
       }
 
       return mWhiteDrawPile.pop();
@@ -157,7 +153,6 @@ public class Deck implements java.io.Serializable {
    }
 
    public void discard(Card card) {
-      //Log.i(TAG, "Discarding: [" + card.text + "]");
       if (card.getCardType() == CardType.BLACK) {
          mBlackDiscard.add(card);
       }
@@ -169,18 +164,16 @@ public class Deck implements java.io.Serializable {
 
    public void setNextBlack() {
       if (mCurrentBlack != null) {
-         discard(mCurrentBlack);  // we might have already called discard?
+         discard(mCurrentBlack);
       }
       mCurrentBlack = nextBlackCard();
    }
 
    public void setup() {
-
       mWhiteDrawPile = new CardSet();
 
       for (CardSet cs : mWhiteCardSets) {
          for (Card c : cs) {
-            //mWhiteDrawPile.add(new Card(c));
             mWhiteDrawPile.add(c);
          }
       }
@@ -189,7 +182,6 @@ public class Deck implements java.io.Serializable {
 
       for (CardSet cs : mBlackCardSets) {
          for (Card c : cs) {
-            //mBlackDrawPile.add(new Card(c));
             mBlackDrawPile.add(c);
          }
       }
@@ -201,7 +193,6 @@ public class Deck implements java.io.Serializable {
    }
 
    public Card getCurrentBlack() {
-      Log.i(TAG, "Getting current black which is " + mCurrentBlack.getText());
       return mCurrentBlack;
    }
 

@@ -81,7 +81,6 @@ public class Combo implements java.io.Serializable {
    public Combo() { }
    public void readExternal(ObjectInput input) throws IOException,
    ClassNotFoundException {
-      // TODO Auto-generated method stub
       mBlackCard = (Card)input.readObject();
       mWhiteCards = (CardSet)input.readObject();
       mPlayer = (Player)input.readObject();

@@ -21,16 +21,32 @@ public class Card implements java.io.Serializable {
 
    private static final long serialVersionUID = 1;
    private static final String TAG = "Card";
-   public  static final String UNDERSCORES = "___";
-   public  static final String UNDERSCORE_COLOR = "#00FFFF";
+   
+   /**
+    * Black card text from the json files contain one or 
+    * more occurrences of three consecutive underscores.  
+    * These represent fill in the blanks where white cards 
+    * should be submitted.
+    */
+   public static final String UNDERSCORES = "___";
+   
+   /**
+    * A Cyan color for the fill in the blanks
+    */
+   public static final String UNDERSCORE_COLOR = "#00FFFF";
 
-   // Black cards have fill in the blank underlines in them.  These are 
-   // rendered by underlining a series of non breaking spaces in html
-   public static final String  spaces = "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + 
+   /** 
+    * We cannot render the black card's fill in the blanks using 
+    * underscores because there will be a small space visible between each underscore.
+    * Instead, html is used to underline "blank space" characters.  The only way this
+    * works is by specifying the space characters as non breaking spaces. 
+    */
+   public static final String  spaces = 
          "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + 
-         "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + 
-         "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" +
-         "&nbsp;&nbsp;&nbsp;";
+               "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + 
+               "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + 
+               "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" +
+               "&nbsp;&nbsp;&nbsp;";
 
    public enum CardType {BLACK, WHITE};
 
@@ -51,11 +67,16 @@ public class Card implements java.io.Serializable {
    /**
     * Initializes a Card from JSON
     *
-    * Here is the longer description.
-    *
     * @param  cardType   whether this is a white or black card
-    * @param  cardAsJSON json representation of the card
-    * @return No return
+    * @param  cardAsJSON json representation of the card.  
+    *                    Each JSON card object is required to have the "text"                 
+    *                    tag which for white cards simply holds the text
+    *                    of the card, but for black cards holds one or more
+    *                    occurrences of triple underscore (___) to represent the
+    *                    spots in the black card where a white card needs to be filled in.
+    *                    Each card can specify a phrase for
+    *                    definition purposes either by enclosing the phrase in 
+    *                    brackets or supplying another JSON tag called "definitionText" 
     */
    public void initializeCard(CardType cardType, JSONObject cardAsJSON) throws JSONException {
       String rawText = cardAsJSON.getString("text");
@@ -65,6 +86,9 @@ public class Card implements java.io.Serializable {
       if (cardType == CardType.BLACK) {
          mText = rawText;
          int numUnderscores = Util.countOccurrences(mText, UNDERSCORES);
+         if (numUnderscores == 0) {
+            Log.i(TAG, "Card [" + mText + "] does not have any underscores!");
+         }
          mRequiredWhiteCardCount = (numUnderscores == 0 ? 1 : numUnderscores);
       }
       else {
@@ -125,15 +149,11 @@ public class Card implements java.io.Serializable {
       }
 
       String requestURL = String.format(url, Uri.encode(this.getTextToDefine()));
-      Log.i(TAG, "The URL is [" + requestURL + "]");
       Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(requestURL));
       return browserIntent;
-
    }
 
-
    public CharSequence getStyledStatement() {
-
       if (this.mCardType == CardType.WHITE) {
          return this.mText;
       }

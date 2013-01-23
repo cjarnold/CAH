@@ -30,22 +30,22 @@ import arnold.cja.cah.Util.StyleType;
  */
 public class LaunchActivity extends ListActivity {
 
-   private static final String TAG = "LaunchActivity";
-   private static final String SELECT_WHITE         = "Start next round";
-   private static final String VIEW_BLACK_CARD_SETS = "Browse Black Card Sets";
-   private static final String VIEW_WHITE_CARD_SETS = "Browse White Card Sets";
-   private static final String PLAYERS              = "Manage Players";
-
-   public  static final String CARD_TYPE = "CARD_TYPE";
-
+   private static final String TAG                       = "LaunchActivity";
+   private static final String MENU_START_ROUND          = "Start next round";
+   private static final String MENU_VIEW_BLACK_CARD_SETS = "Browse Black Card Sets";
+   private static final String MENU_VIEW_WHITE_CARD_SETS = "Browse White Card Sets";
+   private static final String MENU_MANAGE_PLAYERS       = "Manage Players";
+   private static final String B_PASS_TO_CARD_CZAR       = "PASS_TO_CARD_CZAR";
+   public  static final String CARD_TYPE                 = "CARD_TYPE";
+   
    private static final int DIALOG_NEED_FEWER_PLAYERS = 1;
    private static final int DIALOG_NEED_MORE_PLAYERS  = 2;
    private static final int DIALOG_PASS_TO_CARD_CZAR  = 3;
    private static final int DIALOG_NEW_GAME           = 4;
    private static final int DIALOG_EXIT               = 5;
 
-   private static final String B_PASS_TO_CARD_CZAR = "PASS_TO_CARD_CZAR";
-
+   public static GameManager gm;
+   
    private static enum RequestCodes { 
       SELECT_NEXT_PLAYER,
       SELECT_ROUND_WINNER
@@ -54,29 +54,23 @@ public class LaunchActivity extends ListActivity {
    private ArrayList<String>    mMainMenu;
    private ArrayAdapter<String> mAdapter;
 
-   public static GameManager gm; 
-   public static int nonFinalInt = 5;
-   public static final int finalInt = 6;
-   public static final String myString = "Hello World";
-
+   
    @Override
    public void onCreate(Bundle savedInstanceState) {
       super.onCreate(savedInstanceState);
-      Log.i(TAG, "onCreate");
+      Log.i(TAG, "LaunchActivity::onCreate");
 
       Util.constructGameManagerIfNecessary(this);
 
       mMainMenu = new ArrayList<String>();
-      mMainMenu.add(SELECT_WHITE);
-      mMainMenu.add(PLAYERS);
-      mMainMenu.add(VIEW_BLACK_CARD_SETS); 
-      mMainMenu.add(VIEW_WHITE_CARD_SETS);
+      mMainMenu.add(MENU_START_ROUND);
+      mMainMenu.add(MENU_MANAGE_PLAYERS);
+      mMainMenu.add(MENU_VIEW_BLACK_CARD_SETS); 
+      mMainMenu.add(MENU_VIEW_WHITE_CARD_SETS);
 
       mAdapter = new ArrayAdapter<String>(this, R.layout.main_menu_item, mMainMenu);
 
       setRound();
-
-
       setListAdapter(mAdapter);
       setContentView(R.layout.main);
 
@@ -84,7 +78,8 @@ public class LaunchActivity extends ListActivity {
    }
 
    private void setRound() {
-      mMainMenu.set(0, (gm.hasRoundStarted() ? "Continue" : "Start") + " Round " + Integer.toString(gm.getRoundNumber()));
+      mMainMenu.set(0, (gm.hasRoundStarted() ? "Continue" : "Start") + " Round " + 
+            Integer.toString(gm.getRoundNumber()));
       mAdapter.notifyDataSetChanged();
    }
 
@@ -92,16 +87,16 @@ public class LaunchActivity extends ListActivity {
    protected void onListItemClick(ListView l, View v, int position, long id) {
       String item = (String) getListAdapter().getItem(position);
 
-      if (position == 0) {
-         handleSelectWhite();
+      if (item == MENU_START_ROUND) {
+         handleStartRound();
       }
-      else if (item == VIEW_BLACK_CARD_SETS) {
+      else if (item == MENU_VIEW_BLACK_CARD_SETS) {
          handleViewCardSets(CardType.BLACK);
       }
-      else if (item == VIEW_WHITE_CARD_SETS) {
+      else if (item == MENU_VIEW_WHITE_CARD_SETS) {
          handleViewCardSets(CardType.WHITE);
       }
-      else if (item == PLAYERS) {
+      else if (item == MENU_MANAGE_PLAYERS) {
          Intent intent = new Intent(this, ManagePlayersActivity.class);
          Util.startActivity(this, intent);
       }
@@ -200,7 +195,7 @@ public class LaunchActivity extends ListActivity {
       }
    }
 
-   private void handleSelectWhite() {
+   private void handleStartRound() {
       // make sure all players can get enough cards.  If not, don't let them start the round
       for (Player p : gm.getPlayers()) {
          if (!gm.dealEnough(p)) {
@@ -245,9 +240,6 @@ public class LaunchActivity extends ListActivity {
       super.onActivityResult(requestCode, resultCode, data);
 
       if (requestCode == RequestCodes.SELECT_NEXT_PLAYER.ordinal()) {
-         // back from selecting white cards
-         // put up an alert box telling people to pass the phone to the CardCzar
-         // and then start the handleRoundWinner activity
          if (resultCode == 0) {
             // not finished
             setRound();
@@ -276,8 +268,8 @@ public class LaunchActivity extends ListActivity {
    @Override
    protected void onResume() {
       super.onResume();
-      Log.i(TAG, "LaunchActivity::onResume2");
-      Util.assertGameState(this, "LaunchActivity::onResume2");
+      Log.i(TAG, "LaunchActivity::onResume");
+      Util.assertGameState(this, "LaunchActivity::onResume");
       // The activity has become visible (it is now "resumed").
    }
    @Override
