@@ -9,7 +9,7 @@ This android application is in no way sponsored by cardsagainsthumanity.com.  It
 
 Just like the official game, CAH is distributed under the [Creative Commons Attribution-NonCommercial-ShareAlike license](http://creativecommons.org/licenses/by-nc-sa/2.0/).  This restricts CAH from appearing in any app store such as Google Play.  The best I can do is provide the <b>.apk file for download</b> [here](https://raw.github.com/cjarnold/CAH/master/CAH.apk).    
  
-I want to emphasize this is a <b>single device pass-and-play</b> version.  There is no online/bluetooth/wifi multiplayer.  I would like to someday turn this into an online version but I do not have a timeline on that.  Sorry!
+I want to emphasize this is currently a <b>single device pass-and-play</b> version.  There is no online/bluetooth/wifi multiplayer.  I would like to someday turn this into an asynchronous online multiplayer version and am currently researching a PHP and MySQL backend with [Google Cloud Messaging](http://developer.android.com/google/gcm/index.html) for push notifications.  Hopefully I will have time to start working on this soon!
 
 Most testing has taken place on a Galaxy S3 with Jelly Bean.  There may be an issue where text will not wrap in some cases on Gingerbread devices.  I am looking into it.  
 
