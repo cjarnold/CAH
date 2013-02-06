@@ -158,7 +158,7 @@ public class Card implements java.io.Serializable {
          return this.mText;
       }
       else {
-         String text = new String(mText);
+         String text = new String(mText);        
          text = text.replaceAll(Card.UNDERSCORES, "<u><font color='" + UNDERSCORE_COLOR + "'>" + Card.spaces + "</font></u>");			
          return Html.fromHtml(text);
       }
